@@ -4,6 +4,11 @@ from config import mysql
 from flask import jsonify
 from flask import flash, request
 
+@app.route('/')
+def home():
+    return "Hello, Python Web App running on Flask Framework!, /emp to get details"
+
+
 @app.route('/create', methods=['POST'])
 def create_emp():
         _json = request.json
