@@ -19,4 +19,5 @@ pip3 install -r requirements.txt
 export set FLASK_APP=main.py
 flask run --host=0.0.0.0
 python3 main.py
+deactivate
 ```
