@@ -20,4 +20,5 @@ export set FLASK_APP=main.py
 flask run --host=0.0.0.0
 python3 main.py
 deactivate
+expose 5000 port of docker file
 ```
